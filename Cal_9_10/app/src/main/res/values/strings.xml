@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Cal_9_10</string>
+    <string name="ed1">숫자1</string>
+    <string name="ed2">숫자2</string>
+    <string name="bt1">더하기</string>
+    <string name="bt2">빼기</string>
+    <string name="bt3">곱하기</string>
+    <string name="bt4">나누기</string>
+    <string name="bt5">나머지값</string>
+    <string name="result">계산 결과 : </string>
+
+</resources>
