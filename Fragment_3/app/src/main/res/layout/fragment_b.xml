@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@android:color/holo_red_light"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/frag_a_text"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="FragmentB:" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frag_b_edit"
+        android:padding="15dp"
+        android:background="@drawable/edittext"
+        android:hint="Message to Fragment B"/>
+
+</LinearLayout>
