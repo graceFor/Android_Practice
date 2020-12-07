@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Fragment"
+        android:textSize="30dp"
+        android:layout_margin="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="메시지 입력"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:hint="Message to send"
+        android:id="@+id/edit_msg"
+        android:background="@drawable/button_shape"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="프래그먼트 선택"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="FRAGMENT A"
+        android:background="@android:color/holo_blue_bright"
+        android:id="@+id/btnFragA"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="FRAGMENT B"
+        android:background="@android:color/holo_red_light"
+        android:id="@+id/btnFragB"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="FRAGMENT C"
+        android:background="@android:color/holo_green_light"
+        android:id="@+id/btnFragC"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
